@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img class="suret" src="https://free-png.ru/wp-content/uploads/2021/12/free-png.ru-33-370x135.png">
+        </div>
+        <div>
+            <a class="login" href="">Игры</a>
+            <img src="https://cdn-icons-png.flaticon.com/512/54/54785.png" alt="" class="arrow">
+            <a class="login" href="">Магазин</a>
+            <img src="https://cdn-icons-png.flaticon.com/512/54/54785.png" alt="" class="arrow">
+            <a class="login" href="">Поддержка</a>
+            <img src="https://cdn-icons-png.flaticon.com/512/54/54785.png" alt="" class="arrow">
+        </div>
+        <form class="search-bar">
+            <img  src="https://cdn-icons-png.flaticon.com/512/109/109164.png">
+            <input class="search" type="text" placeholder="Search...">
+        </form>
+        <nav>
+            <a class="login" href="login.html">Login</a>
+            <a class="login" href="register.html">Register</a>
+        </nav>
+    </header>
+    <main>
+        <div class="register_reg">
+            <label for="">Name</label>
+            <input class="login-card" type="text" id="name" name="name" placeholder="Атыңызды жазыңыз" required><br><br>
+            <label for="Birthday">Date of birth:</label>
+            <input class="login-card" type="date" name="birthday" id="birthday" required><br><br>
+            <label for="age">Age</label>
+            <input class="login-card" type="number" min="12" max="100" id="age" name="age" placeholder="Enter you age" required><br><br>
+            <label for="surname">фамилия</label>
+            <input class="login-card" type="text" id="surname" name="surname" placeholder="Тегіңізді жазыңыз" pattern="(A-Za-z0-9)(3,15)" required><br>
+            <button>Жіберу</button>
+        </div>
+    </main>
+</body>
+</html>

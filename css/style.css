@@ -1,0 +1,213 @@
+body {
+    background-color: rgb(58, 58, 58);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(41, 41, 41);
+    box-shadow: 2px 2px 5px;
+    padding: 10px;
+}
+
+header img {
+    height: 100px;
+}
+
+.login {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    transition-duration: 0.3s;
+    transition-property: all;
+}
+
+.login:hover {
+    color: rgb(23, 200, 0);
+}
+
+.search {
+    border-radius: 110px;
+    width: 200px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    padding: 10px;
+}
+
+.search-bar {
+    position: relative;
+    width: fit-content;
+}
+
+.search-bar img{
+    position: absolute;
+    height: 30px;
+    right: 5px;
+    bottom: 5px;
+}
+
+.minecraft-card img{
+    height: 270px;
+    width: 300px;
+    padding-top: 1000px;
+    padding: 0%;
+}
+
+.minecraft-cards {
+    display: flex;
+}
+
+.minecraft-card {
+    padding: 20px;
+}
+
+.arrow  {
+    height: 20px;
+    width: 20px;
+    left: 470px;
+}
+
+.arrow img {
+    background-color: black;
+}
+
+.soz h3 {
+    color: #ffffff;
+    position: absolute;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    left: 290px;
+    top: 790px;
+}
+
+.soz2 {
+    color: #ffffff;
+    /* position: absolute;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    left: 670px;
+    top: 790px; */
+}
+
+main div img  {   
+    height: 390px;
+    width: 390px;
+    padding: 20px;
+}
+
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.register_reg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.login-card {
+    border-radius: 10px;  
+}
+
+.login-main {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.burger {
+    display: none;
+    width: 60px;
+}
+
+@media (max-width: 768px) {
+    .burger {
+        display: flex;
+        
+    }
+
+    main div img {
+        flex-direction: column;
+    }
+}
+
+
+.info-card-1 {
+    padding: 15px;
+}
+
+.info-card-1 mark {
+    background-color: green;
+}
+
+.info-card-2 {
+    padding: 15px;
+}
+
+.info-card-2 mark {
+    background-color: green;
+}
+
+.info-card-bar h1 {
+    position: absolute;
+    padding: 20px;
+    top: 110px;
+    left: 530px;
+    color: rgb(255, 255, 255);
+}
+
+.info-card-bar {
+    background-color: rgb(41, 41, 41);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    padding-top: 20px;
+    border-radius: 100px;
+    margin: 50px;
+    display: flex;
+}
+
+.blocks {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.block {
+    position: relative;
+}
+
+.block h3 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.musics {
+    display: flex;
+    padding-top: 40px;
+    background-color: rgb(208, 204, 204);
+}
+
+.musics h2 {
+    position: absolute;
+    padding-left: 35%;
+    padding-top: 10px
+} 
+    
+.musics h1 {
+    color: rgb(255, 255, 255);
+}
+
+.music-card {
+    padding: 10px;
+}
+
+
